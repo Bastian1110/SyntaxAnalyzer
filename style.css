@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(17, 7, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrong{color: red;}
+.float{color: rgb(24, 242, 169);}
+.int{color: rgb(0, 238, 79);}
+.name{color:rgb(76, 128, 238)}
+.add,.sub,.multi,.power,.divi{color: rgb(255, 0, 212);}
+.open,.close{color: rgb(255, 249, 73);}
+.equal{color: rgb(59, 242, 255);}
+.comment{color: aliceblue;}
