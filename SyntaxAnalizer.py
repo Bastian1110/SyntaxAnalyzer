@@ -40,10 +40,10 @@ def parseFile(tokens,prepare):
     out.append([tokens[i],parse(prepare[i])])
   return out
 
-def syntaxAnalize(inputPath,outName):
+def syntaxAnalize(inputPath):
   data = readFile(inputPath)
   tokens = generateTokens(lexLuthor,data)
   prepare = prepareForParse(tokens)
   finalOut = parseFile(tokens,prepare)
-  createHtml(finalOut,outName)
+  createHtml(finalOut,inputPath[:-4])
   
